@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = ".K";
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.Vll.3888}!`);  
+  console.log(`Logged in as ${client.Vll.tag}!`);  
 });
 
 client.on('ready', async() => {
