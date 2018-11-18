@@ -3,11 +3,11 @@ const client = new Discord.Client();
 var prefix = ".K";
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);  
+  console.log(`Logged in as ${client.Vll.3888}!`);  
 });
 
 client.on('ready', async() => {
-var server = "509357857666236430"; // 504578013485334529
+var server = "509357857666236430"; //504578013485334529
 var channel = "509357857666236434";//504578013938188294
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**#Daily **')
